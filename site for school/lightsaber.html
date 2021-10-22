@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightsaber</title>
+    <link rel="stylesheet" href="lightsaber.css">
+    <script src="lightsaber.js"></script>
+</head>
+<body>
+    <label for="green">Jedi Consular</label>
+<input type="radio" id="green" name="color" checked>
+<label for="blue">Jedi knight</label>
+<input type="radio" id="blue" name="color">
+<label for="yellow">Jedi Guardian</label>
+<input type="radio" id="yellow" name="color">
+<label for="purple">Mace Windu</label>
+<input type="radio" id="purple" name="color">
+<label for="red">Sith</label>
+<input type="radio" id="red" name="color">
+<label for="darksaber">Darksaber</label>
+<input type="radio" id="darksaber" name="color">
+
+<div class="lightsaber">
+  <input type="checkbox" value="play" onclick="play()" id="on-off">
+  <div class="blade"></div>
+  <label class="hilt" for="on-off">
+  </label>
+  <audio id="audio" src="lightsaber_02.mp3"></audio>
+</div>
+
+
+</body>
+</html>
