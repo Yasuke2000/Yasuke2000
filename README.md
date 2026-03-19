@@ -24,7 +24,7 @@ bio: "I am a nerd."
 
 currently:
   learning: [C#, JavaScript, CSS, HTML, Cybersecurity]
-  building: tools that solve real problems (or just make me smile)
+  building: a K3s homelab cluster on NixOS (and tools that make me smile)
   exploring: everything tech — if it has a terminal, I'm interested
 
 fun_facts:
@@ -39,27 +39,52 @@ fun_facts:
 
 <div align="center">
 
-**Languages**
+**Languages & Scripting**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Nix](https://img.shields.io/badge/Nix-5277C3?style=flat-square&logo=nixos&logoColor=white)
 
-**Libraries & Frameworks**
+**Containers & Orchestration**
 
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
-![SheetJS](https://img.shields.io/badge/SheetJS-339933?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
-**Tools & Infrastructure**
+**Networking & Infra**
+
+![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Let's Encrypt](https://img.shields.io/badge/Let's_Encrypt-003A70?style=flat-square&logo=letsencrypt&logoColor=white)
+![MetalLB](https://img.shields.io/badge/MetalLB-0078D4?style=flat-square&logo=kubernetes&logoColor=white)
+
+**Monitoring & Observability**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Uptime Kuma](https://img.shields.io/badge/Uptime_Kuma-5CDD8B?style=flat-square&logo=uptimekuma&logoColor=white)
+
+**Self-Hosted Apps**
+
+![Vaultwarden](https://img.shields.io/badge/Vaultwarden-175DDC?style=flat-square&logo=bitwarden&logoColor=white)
+![Jellyfin](https://img.shields.io/badge/Jellyfin-00A4DC?style=flat-square&logo=jellyfin&logoColor=white)
+![Ghost](https://img.shields.io/badge/Ghost-15171A?style=flat-square&logo=ghost&logoColor=white)
+
+**Tools & Libraries**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Networking](https://img.shields.io/badge/Networking-0078D4?style=flat-square&logo=cisco&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF6F00?style=flat-square&logo=hackthebox&logoColor=white)
 
 </div>
@@ -70,7 +95,7 @@ fun_facts:
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [Homelab](https://github.com/Yasuke2000/Homelab) | My personal homelab setup — self-hosting the dream | Infra |
+| [Homelab](https://github.com/Yasuke2000/Homelab) | K3s cluster on NixOS — GitOps, monitoring, self-hosted everything | K3s, NixOS, ArgoCD |
 | [Transport KPI Dashboard](https://github.com/Yasuke2000/transport-kpi-dashboard) | Real-time logistics KPIs, charts & Excel export | JS, Chart.js |
 | [Subnet Calculator](https://github.com/Yasuke2000/Subnet-Calculator) | Calculate & manage IPv4 subnets with ease | Python |
 | [DPR Calculator for D&D](https://github.com/Yasuke2000/DPR-Calculator-for-D-D) | Estimate your character's Damage Per Round | Python |
@@ -156,7 +181,10 @@ fun_facts:
     │    - Staff of Python (+3 to automation)             │
     │    - Cloak of JavaScript (sometimes invisible,      │
     │      sometimes undefined)                           │
-    │    - Bag of Holding (Docker containers)             │
+    │    - Bag of Holding (K3s cluster, 4x HP nodes)     │
+    │    - Helm of ArgoCD (+5 to GitOps)                 │
+    │    - Shield of Vaultwarden (immune to password      │
+    │      reuse)                                        │
     │                                                     │
     │  SPECIAL ABILITY: "Min-Max Everything"              │
     │    Can calculate DPR in sleep. Has built tools      │
