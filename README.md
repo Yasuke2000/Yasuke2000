@@ -9,6 +9,7 @@ yasuke@github:~$ cat /etc/profile
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=David+Delporte+%7C+Yasuke;Nerd+%2F+Builder+%2F+Curious+Mind" alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-Yasuke2000-181717?style=for-the-badge&logo=github)](https://github.com/Yasuke2000)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Delporte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-delporte/)
 [![Email](https://img.shields.io/badge/Email-contact%40daviddelporte.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@daviddelporte.com)
 
 </div>
