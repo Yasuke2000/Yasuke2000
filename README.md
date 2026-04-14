@@ -73,19 +73,43 @@ fun_facts:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Uptime Kuma](https://img.shields.io/badge/Uptime_Kuma-5CDD8B?style=flat-square&logo=uptimekuma&logoColor=white)
 
+**Frameworks & Libraries**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=react&logoColor=white)
+![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Storage & Secrets**
+
+![Longhorn](https://img.shields.io/badge/Longhorn-5F224B?style=flat-square&logo=rancher&logoColor=white)
+![NFS](https://img.shields.io/badge/NFS-0078D4?style=flat-square&logo=files&logoColor=white)
+![SOPS](https://img.shields.io/badge/SOPS-4A154B?style=flat-square&logo=mozilla&logoColor=white)
+
 **Self-Hosted Apps**
 
 ![Vaultwarden](https://img.shields.io/badge/Vaultwarden-175DDC?style=flat-square&logo=bitwarden&logoColor=white)
 ![Jellyfin](https://img.shields.io/badge/Jellyfin-00A4DC?style=flat-square&logo=jellyfin&logoColor=white)
+![Jellyseerr](https://img.shields.io/badge/Jellyseerr-B388FF?style=flat-square&logo=jellyfin&logoColor=white)
 ![Ghost](https://img.shields.io/badge/Ghost-15171A?style=flat-square&logo=ghost&logoColor=white)
+![Actual Budget](https://img.shields.io/badge/Actual_Budget-5B21B6?style=flat-square&logo=cashapp&logoColor=white)
+![Homepage](https://img.shields.io/badge/Homepage-3B82F6?style=flat-square&logo=homepage&logoColor=white)
 
-**Tools & Libraries**
+**Tools & CI/CD**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![MkDocs](https://img.shields.io/badge/MkDocs-526CFE?style=flat-square&logo=materialformkdocs&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF6F00?style=flat-square&logo=hackthebox&logoColor=white)
 
 </div>
@@ -97,9 +121,11 @@ fun_facts:
 | Project | Description | Tech |
 |---------|-------------|------|
 | [Homelab](https://github.com/Yasuke2000/Homelab) | K3s cluster on NixOS — GitOps, monitoring, self-hosted everything | K3s, NixOS, ArgoCD |
+| [Tachoviewer](https://github.com/Yasuke2000/tachoviewer) | Browser-only tachograph (.ddd) file viewer for truck drivers | React, Vite |
 | [Transport KPI Dashboard](https://github.com/Yasuke2000/transport-kpi-dashboard) | Real-time logistics KPIs, charts & Excel export | JS, Chart.js |
-| [Subnet Calculator](https://github.com/Yasuke2000/Subnet-Calculator) | Calculate & manage IPv4 subnets with ease | Python |
-| [DPR Calculator for D&D](https://github.com/Yasuke2000/DPR-Calculator-for-D-D) | Estimate your character's Damage Per Round | Python |
+| [DPR Oracle](https://github.com/Yasuke2000/dpr-oracle) | Advanced D&D DPR calculator with probability graphs | React, Recharts |
+| [DPR Calculator for D&D](https://github.com/Yasuke2000/DPR-Calculator-for-D-D) | Flask-based DPR calculator + Curse of Strahd tools | Python, Flask |
+| [Subnet Calculator](https://github.com/Yasuke2000/Subnet-Calculator) | Calculate & manage IPv4 subnets (not in my head though) | Python |
 | [Happy Button](https://github.com/Yasuke2000/happybutton) | Sad? Press it. Get a cat GIF. Feel better. | JavaScript |
 | [Valentine](https://github.com/Yasuke2000/Valentine) | A little something to help you get dates | HTML |
 
@@ -108,9 +134,6 @@ fun_facts:
 ### `$ neofetch --stats`
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Yasuke2000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasuke2000&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="165" alt="Top Languages" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yasuke2000&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
 
